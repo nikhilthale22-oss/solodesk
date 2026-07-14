@@ -1,0 +1,17 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+
+# Rust / Tauri
+src-tauri/target
+src-tauri/gen
+
+# local database dumps
+*.db
+*.db-shm
+*.db-wal
+
+# design research — kept locally, not published
+docs/
